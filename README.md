@@ -300,7 +300,7 @@ Note that currently, the values of the arguments being passed to `innerFunction`
 are part of the **definition** of `outer`. In order to change those values we
 have to modify the `outer` function. This is not ideal.
 
-With a simple change, something miraculous can happen. Rather than having `outer`
+Wit h a simple change, something miraculous can happen. Rather than having `outer`
 return the result of calling `innerFunction`, let's have it return the function
 itself:
 
